@@ -1,8 +1,8 @@
 b=raw_input()
 print(b)
-if(b>='a'):
+if(b>='a'):ot an Alphabe
     print"Alphabet"
 elif(b>='A'):
     print"Alphabet"
 else:
-    print"not an Alphabet"
+    print"No"
