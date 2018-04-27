@@ -1,5 +1,14 @@
-lower_limit = int(input("Enter the lower limit : "))
-upper_limit = int(input("Enter the upper limit : "))
-for i in range(lower_limit,upper_limit+1):
-  if(i%2 == 0):
-    print(i)
+
+#include<stdio.h>
+int main()
+{
+ int i,c,d;
+ printf("enter the a value");
+ scanf("%d",&c);
+ printf("enter the b value");
+ scanf("%d",&d);
+ for(i=c;i<=d;i++)
+ {
+  if(i%2==0)
+   printf("%d",i);
+ }
