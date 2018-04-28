@@ -1,16 +1,16 @@
 def max():
-   	a=int(input())
-   	b=int (input())
-   	c=int(input())
-   	if (a>b):
-      if(a>c):
-    			print (a)
+   	x=int(input())
+   	y=int (input())
+   	z=int(input())
+   	if (x>y):
+      if(x>z):
+    			print (x)
    		else :
-    			print(c)
+    			print(z)
    	elif (b>c):
-   		print (b)
+   		print (y)
    	else:
-   		print (c)
+   		print (z)
 def main():
    	try:
     		max()
